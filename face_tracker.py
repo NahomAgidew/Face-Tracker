@@ -1,13 +1,3 @@
-"""A script to detect and track faces in a video feed.
-
-Author: Nahom Abi
-
-"""
-
-import cv2
-
-faceCascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
-video = cv2.VideoCapture('./demo.mp4')
 
 while True:
     ret, frame = video.read()
